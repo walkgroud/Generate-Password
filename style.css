@@ -75,6 +75,11 @@ input[type='checkbox'] {
 	font-size: 16px;
 	padding: 8px 12px;
 	background-color: #356e48;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	opacity: 0.7;
 }
 
 .btn-large {
@@ -95,4 +100,27 @@ input[type='checkbox'] {
 	.result-container {
 		font-size: 14px;
 	}
+}
+
+#length {
+	border: none;
+	border-radius: 5px;
+	padding: 3px 5px;
+	background-color: #b8b8b8;
+}
+
+#lowercase {
+	cursor: pointer;
+}
+
+#uppercase {
+	cursor: pointer;
+}
+
+#numbers {
+	cursor: pointer;
+}
+
+#symbols {
+	cursor: pointer;
 }
